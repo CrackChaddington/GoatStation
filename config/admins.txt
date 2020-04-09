@@ -9,8 +9,8 @@
 # If SQL-based admin loading is enabled, admins listed here will always be loaded first		  #
 # and will override any duplicate entries in the database.									  #
 ###############################################################################################
-Qwertyquerty = Host
-Crossedfall = Host
-CthulhuOnIce = Host
+CrackRocks = Host
+Scando = Host
+TtechnopriestT = Host
 
 # the rest are in the db

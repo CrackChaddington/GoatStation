@@ -7,20 +7,20 @@ $include antag_rep.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
-# @SERVERNAME beestation
+# @SERVERNAME goatstation
 # Which sets the SERVERNAME, and disallows admins from being able to change it using View Variables.
 # @LOG_TWITTER 0
 # Which explicitly disables LOG_TWITTER, as well as locking it.
 # There are various options which are hard-locked for security reasons.
 
-## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'beestation' with the name of your choice.
-#@SERVERNAME beestation
+## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'goatstation' with the name of your choice.
+#@SERVERNAME goatstation
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 #@SERVERSQLNAME ss13newbs
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Goat Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 #HUB
@@ -228,19 +228,19 @@ CHECK_RANDOMIZER
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
-SERVER  byond://golden.beestation13.com:7777
+SERVER  byond://140.82.22.97:7777
 
 ## forum address
-FORUMURL http://forums.beestation13.com
+FORUMURL http://forums.goatstation.com
 
 ## Wiki address
-WIKIURL https://wiki.beestation13.com/view
+WIKIURL https://wiki.goatstation.com/view
 
 ## Rules address
-RULESURL http://beestation13.com/rules
+RULESURL http://goatstation.com/rules
 
 ## Github address
-GITHUBURL https://www.github.com/beestation/beestation-hornet
+GITHUBURL https://github.com/CrackChaddington/GoatStation
 
 ## Donation URL
 DONATEURL https://www.patreon.com/user?u=10639001
@@ -262,10 +262,10 @@ DISCORDURL https://discord.gg/zUe34rs
 ## Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
 ##Or https://api.github.com/orgs/<org name here>/repos if the repo owner is an organization
-GITHUBREPOID 154500094
+GITHUBREPOID 254256643
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS https://forums.beestation13.com/c/ban-appeals/game-ban-appeals
+BANAPPEALS https://forums.goatstation.com/c/ban-appeals/game-ban-appeals
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
@@ -520,4 +520,4 @@ DEFAULT_VIEW_SQUARE 15x15
 
 ## Uncomment to enable redirecting to the specified address. If a user attempts to join after EXTREEME_POPCAP has been reached, redirect them to this address.
 ## The given address is a format example. "byond://" is required to function. Create a potential infinite loop at your own risk.
-#REDIRECT_ADDRESS byond://golden.beestation13.com:7777
+#REDIRECT_ADDRESS byond://goatstation.com:7777
